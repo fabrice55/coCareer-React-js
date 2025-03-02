@@ -1,0 +1,98 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-color:#E7EDF7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.style-line-1{
+    width: 100%;
+    min-height:100vh;
+    object-fit: cover;
+    position: fixed;
+  
+}*/
+
+.hero-text{
+    text-align: center;
+    max-width: 700px;
+}
+
+.hero-text h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.hero-text p{
+    color: #676767;
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+
+}
+
+.hero-text span{
+    color: #2B71F0;
+}
+
+.home-btn{
+    display: none;
+    
+}
+
+.home-btn img{
+    margin: 0;
+    color: #2B71F0 ;
+    transform: rotate(-90deg);   
+}
+
+.sticky-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 85%;
+    right: 2.5%;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 1px 1px  rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.sticky-btn button{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+/*----------media query----------*/
+
+@media (max-width: 850px){
+    .hero-text h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 650px){
+    .hero-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .hero-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}

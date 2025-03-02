@@ -1,0 +1,276 @@
+/*------------first-Section---------------*/
+
+.pricing-section{
+    background-color:  #001A40;
+}
+
+.pricing-section h2{
+    color: #2B71F0;
+}
+
+.pricing-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.pricing-card{
+    width: 32%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.pricing-card h3{
+    margin-bottom: 20px;
+}
+
+.pricing-card p{
+    margin-bottom: 20px;
+}
+
+.pricing-card .icon{
+    width: 50px;
+    padding: 10px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pricing-card .icon img{
+    width: 30px;
+}
+
+.pricing-card .price{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.pricing-card .volume{
+    margin: 0 3px;
+}
+
+.pricing-card .btn{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.pricing-card-1{
+    background-color: #E7EDF7;
+    color: #001A40;
+}
+
+.pricing-card-1 .icon{
+    background-color: #001A40;
+}
+
+.pricing-card-1 .price, .pricing-card-1 .volume{
+    color: #2B71F0;
+}
+
+.pricing-card-2{
+    background-color: #001A40;
+    color: #2B71F0;
+    border: 1px solid #2B71F0;
+}
+
+.pricing-card-2 .icon{
+    background-color:#2B71F0;
+}
+
+.pricing-card-2 .price, .pricing-card-2 .volume{
+    color: #fff;
+}
+
+.pricing-card-2 .btn{
+    background-color: #fff;
+    color: #2B71F0;
+}
+
+.pricing-card-3{
+    background-color:#2B71F0 ;
+    color: #001A40 ;
+    border: 1px solid #2B71F0;
+}
+
+.pricing-card-3 .icon{
+    background-color:#fff;
+}
+
+.pricing-card-3 .price, .pricing-card-3 .volume{
+    color: #fff;
+}
+
+.pricing-card-3 .btn{
+    background-color:#001A40;
+    color: #fff;
+}
+
+/*------------Second-Section---------------*/
+
+.package-section{
+    background-color: #2B71F0;
+    padding: 100px 0;
+}
+.table{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.table caption{
+    font-size: 35px;
+    color: #001A40;
+    margin-bottom: 50px;
+}
+
+.table th{
+    text-align: left;
+}
+
+.table .icon{
+    width: 30px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 20px 30px;
+}
+
+th{
+    color: #001A40;
+}
+
+td{
+    color: #676767;
+}
+
+.colored-row td{
+    background-color: #E7EDF7;
+}
+
+.table .col-2{
+    text-align: center;
+}
+
+.package p{
+    color: #fff;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.package p .warning{
+    color: #001A40;
+    font-weight: 600;
+}
+
+.package .btns{
+     display: flex;
+     justify-content: center;
+     width: 100%; 
+     gap: 20px;
+}
+
+.btns .btn-1{
+    background-color: #fff;
+    color: #2B71F0;
+    width: 20%;
+    
+}
+
+.btns .btn-2{
+    background-color: #001A40;
+    color: #fff;
+    width: 20%;
+}
+
+/*-------------------media-queries-------------------*/
+
+@media screen and (max-width: 900px){
+    .pricing-cards{
+        flex-wrap: wrap;
+    }
+
+    .pricing-card{
+        width: 48%;
+    }
+
+    .pricing-card .btn{
+        width: 90%;
+    }
+    .table{
+        overflow-x: auto;
+    }
+    .table th, .table td{
+        padding: 20px 10px;
+    }
+    .btns .btn-1, .btns .btn-2{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .pricing-cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pricing-card{
+        width: 60%;
+    }
+
+    .pricing-card .btn{
+        width: 96%;
+    }
+
+    .table th, .table td{
+        padding: 20px 5px;
+    }
+    .btns .btn-1, .btns .btn-2{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .pricing-card{
+        width: 75%;
+    }
+
+    .pricing-card .btn{
+        width: 100%;
+    }
+
+    .table th, .table td{
+        padding: 20px 2px;
+    }
+    .btns {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    .pricing-card{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    .pricing-card{
+        width: 100%;
+    }
+
+}
