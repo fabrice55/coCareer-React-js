@@ -1,6 +1,10 @@
 # coCareer Frontend
 This is the frontend part of the coCareer project. The frontend is built with React and Vite.
 
+## Vercel URL
+
+The frontend is deployed on Vercel. You can access it [here](https://co-career.vercel.app/).
+
 ## Prerequisites
 - Node.js
 - npm
