@@ -6,7 +6,7 @@ import twitter from  '../../assets/twitter.png'
 import facebook from '../../assets/facebook.png'
 import menu_icon from '../../assets/menu-icon.svg'
 import { Link } from 'react-scroll'
-import debounce from 'lodash.debounce'
+
 
 
 const Navbar = () => {
