@@ -5,6 +5,11 @@
   font-family: work sans;
 }
 
+html, body {
+  min-width: 320px; 
+  overflow-x: auto; 
+}
+
 body{
   background: #f5f5f5;
 }

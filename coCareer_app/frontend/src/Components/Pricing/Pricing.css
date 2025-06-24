@@ -222,10 +222,11 @@ td{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
 
     .pricing-card{
-        width: 60%;
+        width: 100%;
     }
 
     .pricing-card .btn{
@@ -241,14 +242,6 @@ td{
 }
 
 @media screen and (max-width: 500px){
-    .pricing-card{
-        width: 75%;
-    }
-
-    .pricing-card .btn{
-        width: 100%;
-    }
-
     .table th, .table td{
         padding: 20px 2px;
     }
@@ -261,16 +254,16 @@ td{
     
 }
 
-@media screen and (max-width: 400px){
-    .pricing-card{
-        width: 80%;
+
+/* @media screen and (max-width: 360px){
+    .pricing-card p {
+        line-height: 25px;
+    }
+    
+    .price{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
     }
 
-}
-
-@media screen and (max-width: 360px){
-    .pricing-card{
-        width: 100%;
-    }
-
-}
+} */
